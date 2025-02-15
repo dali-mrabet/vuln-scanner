@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "vuln-scanner"
+version = "0.1.0"
+description = ""
+authors = ["mohamed ali mrabet <mmrabet@uapinc.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+pydantic-settings = "^2.7.1"
+python-multipart = "^0.0.20"
+httpx = "^0.28.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
