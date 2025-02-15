@@ -36,6 +36,13 @@
 - Poetry (for dependency management)
 - Other dependencies specified in `pyproject.toml`
 
+## Create .env file
+
+```
+PROJECT_NAME=vuln-scanner
+SCANNER_ENDPOINT=https://api.osv.dev/v1/query
+```
+
 ## Installation
 
 Clone the repository:
@@ -54,12 +61,6 @@ Clone the repository:
 
 - Access the application at http://127.0.0.1:8000.
 
-## Create .env file
-
-```
-PROJECT_NAME=vuln-scanner
-SCANNER_ENDPOINT=https://api.osv.dev/v1/query
-```
 
 ## Project Structure
 ```
